@@ -1,0 +1,11 @@
+<%- include('header') -%>
+
+<div class="text-center center-div mt-5" id="login">
+    <div class="container w-25 border py-5 mt-5">
+        <h3>Chào mừng đến với <strong>VNCERT/CC</strong></h3>
+        <h5><%= locals.user ? user : "User" %></h5>
+        <a href="/route/logout">Đăng xuất</a>
+    </div>
+</div>
+
+<%- include('footer') -%>
